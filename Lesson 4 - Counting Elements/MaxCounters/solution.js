@@ -20,7 +20,7 @@ function solution(N, A) {
     }
   });
 
-  return (counters = counters.map(counter =>
+  return counters.map(counter =>
     counter < lastMaxCounter ? lastMaxCounter : counter
-  ));
+  );
 }
